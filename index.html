@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color: gray;width: 250px;margin: auto;margin-top: 100px;height: 300px;border-radius: 6px;">
+    <div style="margin-left: 25px;margin-top: 100px">
+    <input id="Input-field" style="width: 200px;border-radius: 4px;height: 40px;margin-top: 20px;border: 1px solid gray;" type="text">
+
+   </div>
+   <div style="margin-top: 6px;margin-left: 25px;">
+    <button style="width: 41px;height: 40px;border-radius: 4px;border: 1px solid gray;" onclick="getNum('7')">7</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px;border-radius: 4px;border: 1px solid gray;" onclick="getNum('8')">8</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('9')">9</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;background-color: rgba(0, 0, 0, 0.809);color: white;" onclick="getNum('+')">+</button>
+   </div>
+
+   <div style="margin-top: 6px;margin-left: 25px;">
+    <button style="width: 41px;height: 40px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('4')">4</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('5')">5</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('6')">6</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray; background-color: rgba(0, 0, 0, 0.809);color: white;" onclick="getNum('-')">-</button>
+   </div>
+
+   <div style="margin-top: 6px;margin-left: 25px;">
+    <button style="width: 41px;height: 40px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('1')">1</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('2')">2</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('3')">3</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray; background-color: rgba(0, 0, 0, 0.809);color: white;" onclick="getNum('*')">x</button>
+   </div>
+
+   <div style="margin-top: 6px;margin-left: 25px;">
+    <button style="width: 41px;height: 40px; border-radius: 4px;border: 1px solid gray;background-color: red;color: white;" onclick="cls()">C</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray;" onclick="getNum('0')">0</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray; background-color: rgba(0, 0, 0, 0.809);color: white;" onclick="calculate()">=</button>
+    <button style="width: 41px;height: 40px;margin-left: 10px; border-radius: 4px;border: 1px solid gray; background-color: rgba(0, 0, 0, 0.809);color: white;" onclick="getNum('/')">/</button>
+   </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
